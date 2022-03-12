@@ -29,7 +29,7 @@ function init() {
         accordionsEl.forEach(accordion => {
             accordions.push(new Accordion(accordion))
         })
-        
+
         const hideFiltersBtn = document.querySelector('[data-filters-open]')
         const openFiltersBtn = document.querySelector('[data-filters-hide]')
 
